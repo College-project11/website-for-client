@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RC Mancilla Consulting, LLC</title>
+<!-- Website coded by Aleksandar Kurilenko -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://www.rcmcschools.com/rcmccss/5/rcmc.css"> -->
+<link rel="stylesheet" href="collegeproject.css">
+<link rel="stylesheet" href="collegeproject1.css">
+<link rel="stylesheet" href="fonts.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("college website image2.jpg");
+  min-height: 100%;
+}
+
+.rcmc-bar .rcmc-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="rcmc-top">
+  <div style="background-color: white;" class="rcmc-bar rcmc-card" id="myNavbar">
+    <a href="#home" class="rcmc-bar-item rcmc-button rcmc-wide">RC Mancilla Consulting LLC</a>
+    <!-- Right-sided navbar links -->
+    <div class="rcmc-right rcmc-hide-small">
+
+      <a href="#home" class="rcmc-bar-item rcmc-button"> Home</a>
+      <a href="#about" class="rcmc-bar-item rcmc-button"> About Us</a>
+      <a href="#services" class="rcmc-bar-item rcmc-button"> Services</a>
+      <a href="#contact" class="rcmc-bar-item rcmc-button"> Contact Us</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="rcmc-bar-item rcmc-button rcmc-right rcmc-hide-large rcmc-hide-medium" onclick="rcmc_open()">
+      <!-- <i class="fa fa-bars"></i> -->
+      <img src="college website image0.png" alt="Open sidebar">
+    </a>
+  </div>
+</div>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav style="background-color: black;color: white;" class="rcmc-sidebar rcmc-bar-block rcmc-card rcmc-animate-left rcmc-hide-medium rcmc-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="rcmc_close()" class="rcmc-bar-item rcmc-button rcmc-large rcmc-padding-16">Close ×</a><br>
+  <a href="#home" onclick="rcmc_close()" class="rcmc-bar-item rcmc-button"> Home</a><br>
+  <a href="#about" onclick="rcmc_close()" class="rcmc-bar-item rcmc-button"> About Us</a><br>
+  <a href="#services" onclick="rcmc_close()" class="rcmc-bar-item rcmc-button"> Services</a><br>
+  <a href="#contact" onclick="rcmc_close()" class="rcmc-bar-item rcmc-button"> Contact Us</a><br>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 rcmc-display-container rcmc-grayscale-min" id="home">
+  <div class="rcmc-display-left rcmc-text-white" style="padding:48px">
+    <p style="font-size: 64px;">Professional Technology Assistance</p>
+    <p><a style="background-color: white;padding: 20px;" href="#about" class="rcmc-opacity rcmc-hover-opacity-off">Learn more about us</a></p>
+  </div> 
+  
+</header>
+<!-- About Section -->
+<div style="background-color: rgb(255, 255, 255); padding:64px 16px; padding-bottom: 16px;" class="rcmc-container"id="about">
+    <div style="text-align: center;" class="">
+      <h1>About Us</h1>
+      <div class="rcmc-col m4">
+      <h3>Technical Experience</h3>
+      <p>We are well-versed in a variety of operating systems, networks, and databases. We work with just about any technology that a small business would encounter. We use this expertise to help customers with small to mid-sized projects.</p>
+      </div> 
+      <div class="rcmc-col m4">
+      <h3>High ROI</h3>
+      <p>Do you spend most of your IT budget on maintaining your current system? Many companies find that constant maintenance eats into their budget for new technology. By outsourcing your IT management to us, you can focus on what you do best--running your business.</p>
+      </div>
+      <div class="rcmc-col m4">
+      <h3>Satisfaction Guaranteed</h3>
+      <p>The world of technology can be fast-paced and scary. That's why our goal is to provide an experience that is tailored to your company's needs. No matter the budget, we pride ourselves on providing professional customer service. We guarantee you will be satisfied with our work. </p>
+      </div>
+    </div>
+</div>
+
+<!-- Service Section -->
+<div class="rcmc-container" style="padding:64px 16px; background-color: lightgray;" id="services">
+  <h1 style="text-align: center;" class="">Our services</h1>
+  <div style="text-align: center;" class="rcmc-row-padding" style="margin-top:64px">
+    <div class="rcmc-third">
+      <h3>Risk Assessments</h3>
+      <p>We perform risk assessments of your IT environment to help you lower your exposure to inside and outside threats.</p>
+    </div>
+    <div class="rcmc-third">
+      <h3>Business Continuity Planning</h3>
+      <p>We can assist you in developing a comprehensive Business Continuity Plan to ensure your quick recovery after a disaster.</p>
+    </div>
+    <div class="rcmc-third">
+      <h3>Auditing Services</h3>
+      <p>We provide auditing services of your IT environment to ensure compliance with applicable regulations.</p>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div style="background-color: rgb(255, 255, 255);" class="" style="padding:64px 16px;" id="contact">
+  <h1 style="text-align: center;" class="">Contact Us</h1>
+  <h3 style="text-align: center;" class="">Lets get in touch. Send us a message:</h3>
+  <div style="margin-top:48px">
+    
+    <p><i class="rcmc-margin-right"></i> <a href="tel:+17863460417" style="margin: 20px;">Phone: +1 (786) 346-0417</a></p>
+    <p><i class="rcmc-margin-right"> </i> 
+      <a href="mailto:rudolph.mancilla@outlook.com" style="margin: 20px;">Email: rudolph.mancilla@outlook.com</a>
+    </p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div style="background-color: black; padding: 16px; padding-bottom: 16px;" class="">
+  <p style="color: white; margin: 20px;">Copyright © 2025 RC Mancilla Consulting, LLC - All Rights Reserved.</p>
+</div>
+ 
+<script>
+// Modal Image Gallery
+// function onClick(element) {
+//   document.getElementById("img01").src = element.src;
+//   document.getElementById("modal01").style.display = "block";
+//   var captionText = document.getElementById("caption");
+//   captionText.innerHTML = element.alt;
+// }
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon (aka mobile stuff)
+var mySidebar = document.getElementById("mySidebar");
+
+function rcmc_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function rcmc_close() {
+    mySidebar.style.display = "none"; 
+}
+</script>
+
+</body>
+</html>
